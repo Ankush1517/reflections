@@ -1,0 +1,15 @@
+Q.1 What happens when you initialize a repository? Why do you need to do it?
+
+Ans. Initializing repository to a particular directory creates a hidden file .git which stores the metadata that is connected to the changes made while commiting.
+
+For initializing : we need to go to the desired directory, then the command git init should be entered. To view this hidden file you need to type "ls -a".
+
+
+Q.2 How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Ans. Staging area is created just before the user begins to commit. And the files that are included in the staging area are commited. staging area comes at intermediate stage between working directory and repository. Later after committing the changes they are included in repository.
+
+It helps us to know about the files that needs to be committed. We could add multiple files using git add commmand to the staging area and they would all be part of a single commit. That is all those files will be included in one commit when multiple changes are made to them.
+
+
+
