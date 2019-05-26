@@ -12,4 +12,12 @@ Ans. Staging area is created just before the user begins to commit. And the file
 It helps us to know about the files that needs to be committed. We could add multiple files using git add commmand to the staging area and they would all be part of a single commit. That is all those files will be included in one commit when multiple changes are made to them.
 
 
+Q3. How can you use the staging area to make sure you have commit per logical change?
+
+Ans. We add files to staging area before commiting them. If two or more files are interrelated logically then we could add them both one by one through git add command to the staging area. Then using git commit command we would be able to commit changes to all of them at once.
+Thus, making us sure that we commit per logical change.
+
+If the files are not related, add one then commit it through git commit and do the same with the others.
+
+
 
