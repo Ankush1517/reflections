@@ -19,5 +19,13 @@ Thus, making us sure that we commit per logical change.
 
 If the files are not related, add one then commit it through git commit and do the same with the others.
 
+Q3. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Ans. When we don't want to completely modify the file in ordered form one by one connected to the previous versions through commits. But we just want to have another version that have some changes but want to commit them so as to create a different path. 
+
+The created branch would have the commit that we want for those minor changes as a different version. But the main branch would have recent commit only before creating new branch until we don't make changes to it. 
+
+
+
 
 
