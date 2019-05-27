@@ -26,6 +26,15 @@ Ans. When we don't want to completely modify the file in ordered form one by one
 The created branch would have the commit that we want for those minor changes as a different version. But the main branch would have recent commit only before creating new branch until we don't make changes to it. 
 
 
+Q.5 How do the diagrams help you visualize the branch structure?
+
+Ans. Diagrams gives us a clear picture about master and other branches that have been created with reference to their commit id's. In this way we visualise at which commit a new branch was created. 
+
+If we run git log being at a particular branch, it would trace the commits beginning from the most recent commit(of branch) and then would go back to the initial commit. Somewhere in the process it would come back to the point of master branch from where the branch originated. Then would trace the commits all the way back to initial commit through the master branch.
+
+If we just checkout a previous commit and make a new commit there, it would not show up when we run git log from master branch.
+
+
 
 
 
