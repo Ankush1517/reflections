@@ -34,6 +34,16 @@ If we run git log being at a particular branch, it would trace the commits begin
 
 If we just checkout a previous commit and make a new commit there, it would not show up when we run git log from master branch.
 
+Q.6 WHat is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Ans. Merging two branches in a way combines them by including changes that were being made to them before. Suppose there are two people, one was working working on master branch continually but the other at a point introduced a branch and started working on that. Now after many changes are made we decide to merge the two then all the features made by them would be included. 
+
+The git log would show commit history according to the time, the most recent being at first. Since they are not in order, to know just the changes introduced by a commit we need git show which relates the commit with the parent commit. 
+
+
+We represent it in such a way because the commit included in them are related to it's parent commit. It helps us to have better concept map as well as relation of various branches with the commits.
+
+
 
 
 
