@@ -44,6 +44,23 @@ The git log would show commit history according to the time, the most recent bei
 We represent it in such a way because the commit included in them are related to it's parent commit. It helps us to have better concept map as well as relation of various branches with the commits.
 
 
+Q.7 What are the pros and cons of Git's automatic merging vs. always merges manually?
+
+Ans. Git does automatic merging when we give the command git merge branch_1 branc_2. But when there is a part of file where changes are made in both the branches, then git is unable to decide which to include and which not. Thus, this results in arising of a situation called merge conflict.
+
+So we need to make the changes manually and that we want to keep. Like modifying in a way to keep both the changes or to just keep the changes of any one branch. It also depends upon memory management, efficiency, time complexity, etc.
+The part of file with the conflict when opened would be divided into three parts : 1. branch 1 changes
+                           2. original version
+                           3. branch 2 changes
+
+On saving and running git log again it would say : "All conflicts are resolved but you are still merging"
+use git commit to resolve the conflict...
+git conflict open the editor and there git would by itself put the message : "Merge branch b_1 into b_2". Running git log afterwards would show the merge branch commit message and the file that had conflicts previously.
+
+So in conclusion we could say that in Git manual merging needs to be done only in case of merge conflicts. For other cases git does that on it's own as well as provides an additonal node that interconnects the path backwards from both the merged branches till the initial commit.
+
+
+
 
 
 
