@@ -1,0 +1,4 @@
+Q.1 When would you want to use a remote repository rather than keeping all your work local?
+Ans. When I want to let others to view my work publicly and make changes to them. I could in this way share my files to a larger audience. 
+     I would also be able to let others contribute to my project and the work could be finished with collabration of all. It would be saved 
+     online so I don't need to worry about deletions in my computer.
