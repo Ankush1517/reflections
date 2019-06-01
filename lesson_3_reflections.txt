@@ -2,3 +2,7 @@ Q.1 When would you want to use a remote repository rather than keeping all your 
 Ans. When I want to let others to view my work publicly and make changes to them. I could in this way share my files to a larger audience. 
      I would also be able to let others contribute to my project and the work could be finished with collabration of all. It would be saved 
      online so I don't need to worry about deletions in my computer.
+
+ Q.2 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+ Ans. When we push our local repository to the remote created in git hub, both the files have same content. But later if we make changes in it through github and run git log in git bash those changes wouldn't show. So to do the same in our local repository one needs to use the git pull command. Thus, manually pulling the changes that we want to incorporate in our local repositroy. In this way we could choose the changes made in github to be included in our local repository or not.
