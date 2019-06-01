@@ -6,3 +6,26 @@ Ans. When I want to let others to view my work publicly and make changes to them
  Q.2 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
  Ans. When we push our local repository to the remote created in git hub, both the files have same content. But later if we make changes in it through github and run git log in git bash those changes wouldn't show. So to do the same in our local repository one needs to use the git pull command. Thus, manually pulling the changes that we want to incorporate in our local repositroy. In this way we could choose the changes made in github to be included in our local repository or not.
+
+ Q.4 Describe the differences between forks, clones, and branches. When would you use one instead of another ?
+
+ Ans. Forking means to just have a copy of someone else's repository to your own github account by just a single click of forking option present in the repository. But it isn't completely private because it lets others know how many or who have did forking. Later when one makes changes after forking that is unknown to the source account. 
+ Here, we make copies from one repository in github to our own account in github. Every action happens within Github.
+ 
+ Cloning refers to having a copy of repository from github to your own computer via git clone command with the URL of the repository provided. It also includes copying one repository from locally to our own computer. 
+
+ Branches are simply the deviation from the main branch of our project in which we work consistently from the start. It's made so as to include the changes, test it and still exclude from the main branch version. Thus enabing us to have two versions of the project and checking/switching between them through git checkout branch_name command.
+ Here only one repository is included and within that all of the things occur or take place.
+
+ One would use clone to have a repository on his/her computer and later he could push the further changes made by her into his github account. He would do so by creating a new repository in Github account and a remote with git add remote Name_rmt address._... command. 
+ To push : git push origin(or the create remote name) master
+
+ Forking is preferred when one just wants to have a copy in Github. Further process to have in computer :
+
+ 1. CLone the repository through git clone command 
+ 2. You don't need to add a remote through git add remote remote_name command.
+ 3. Make changes, use git status, git add file_name, and git commit. 
+ 4. Push to the forked repository : git push origin master
+ 5. The game has been finished. Check by refreshing the repository that you forked and you would see the changes you made in your computer there. 
+
+
