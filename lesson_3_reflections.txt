@@ -34,4 +34,8 @@ Ans. When I want to let others to view my work publicly and make changes to them
 
  For this question I couldn't gather much thoughts on other points for the answer. 
 
+ Q.6 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ Ans. If there is an option other than git/github for collaboration then I would say git would be easier. For collaboration without it, we need to send information about our projects to the other person regularly through a comman social media interaction platform. Then I will need to apply that as received through message to the files present locally in my computer. One could also send files and have an edited version of those in reply.
+
 
