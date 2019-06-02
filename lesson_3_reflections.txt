@@ -28,4 +28,10 @@ Ans. When I want to let others to view my work publicly and make changes to them
  4. Push to the forked repository : git push origin master
  5. The game has been finished. Check by refreshing the repository that you forked and you would see the changes you made in your computer there. 
 
+ Q.5 What is the benefit of having a copy of the last known state of the remote stored locally?
+ 
+ Ans. A copy of the last known state of the remote locally just lets us being able to have the information of the project/file in Github. If it had been modified there in Github, we wouldn't have the changes here locally in our computer. Thus we could do so by git pull command request. 
+
+ For this question I couldn't gather much thoughts on other points for the answer. 
+
 
